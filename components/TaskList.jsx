@@ -52,7 +52,7 @@ export default function TaskList({ tasks, onTaskUpdated }) {
         tasks.map((task) => (
           <li
             key={task._id}
-            className="flex items-center justify-between p-2 border"
+            className="flex items-center justify-between p-2 border task_card"
           >
             {editingTask === task._id ? (
               <div className="flex gap-2">

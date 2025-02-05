@@ -42,14 +42,14 @@ export default function TaskForm({ onTaskAdded }) {
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Task Title"
             required
-            className="border p-2"
+            className="border p-2 form_input"
           />
           <input
             type="text"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             placeholder="Description"
-            className="border p-2"
+            className="border p-2 form_input"
           />
         </div>
         <button type="submit" className="bg-blue-500 text-white p-2">

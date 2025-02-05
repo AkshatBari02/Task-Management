@@ -1,8 +1,4 @@
-// import TaskForm from "@components/TaskForm";
-// import TaskList from "@components/TAskList";
 import TaskManager from "@components/TaskManager";
-
-// import Feed from "@components/Feed";
 
 const Home = () => {
   return (
